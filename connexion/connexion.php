@@ -2,8 +2,8 @@
 require_once '../database.php';
 session_start();
 
-$login = $_POST['email'] ?? '';
-$password = $_POST['password'] ?? '';
+$login = $_POST['email'];
+$password = $_POST['password'];
 
 if ($login && $password) {
 

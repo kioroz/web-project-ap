@@ -3,10 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>home</title>
+    <title>animation</title>
 </head>
 <body>
-    bienvenue sur mon site
-
-    <a href="connexion/connexion.html">connexion</a></body>
+    
+</body>
 </html>
