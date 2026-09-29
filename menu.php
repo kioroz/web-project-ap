@@ -42,7 +42,7 @@ if($_SESSION['fonction'] == "EC") {
     echo '<a href="activite/activite.php">Activités</a>';
     echo "</li>";
     echo "<li>";
-    echo '<a href="/animation.php">Voir les animations</a>';
+    echo '<a href="animation/animation.php">Voir les animations</a>';
     echo "</li>";
 }
 

@@ -1,5 +1,5 @@
 <?php
-require_once '../database.php';
+require_once 'database.php';
 session_start();
 
 $login = $_POST['email'];
@@ -20,11 +20,11 @@ if ($login && $password) {
         $_SESSION['fonction'] = $user['TYPEPROFIL'];
         $_SESSION['prenom'] = $user['PRENOMCOMPTE'];
 
-        header("Location: ../menu.php");
+        header("Location: menu.php");
         exit;
 
     } else {
-        header("Location: ../index.html?error=login");
+        header("Location: index.html?error=login");
         exit;
     }
 
