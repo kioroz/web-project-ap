@@ -1,10 +1,10 @@
 document.getElementById('content').addEventListener('submit', function (e) {
-    if (e.target.id !== 'formActivite') 
+    if (e.target.id !== 'formAnimation') return; // on ignore les autres formulaires
 
     e.preventDefault();
     const form = e.target;
 
-    fetch('../pageActiv/gererActiv.php', { 
+    fetch('../pageAnim/ajoutAnim.php', { 
         method: 'POST',
         body: new FormData(form)
     })

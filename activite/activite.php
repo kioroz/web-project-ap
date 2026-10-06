@@ -18,7 +18,6 @@
             <?php
             if ($role == "EC"): ?>
                 <li data-role="gererActiv"> Ajouter une activité</li>
-                <li data-role="suppActiv">Supprimer une activité</li>
                 <li data-role="gererParticipants"> Gérer les participants</li>
             <?php endif; ?>
             <li data-role="consulterActiv">Consulter les activités</li>

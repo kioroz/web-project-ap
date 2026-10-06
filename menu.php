@@ -35,7 +35,7 @@ if($_SESSION['fonction'] == "EC") {
     echo '<a href="activite/activite.php"> activités</a>';
     echo "</li>";
     echo "<li>";
-    echo '<a href="/animation.php">Ajouter une animation</a>';
+    echo '<a href="animation/animation.php">Voir les animations</a>';
     echo "</li>";
  }else if($_SESSION['fonction'] == "VA") {
     echo "<li>";

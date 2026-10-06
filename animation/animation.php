@@ -21,7 +21,6 @@
             <?php
             if ($role == 'EC'): ?>
                 <li data-role="ajoutAnim">Ajouter une animation</li>
-                <li data-role="suppAnim">Supprimer une Animation</li>
             <?php endif ?>
             <li data-role="conAnim"> Consulter les animations</li>
 
@@ -31,4 +30,7 @@
     <div id="content"></div>
 </body>
 
+
+<script src="../js/dynAnim.js"></script>
+<script src="../js/formAnim.js"></script>
 </html>
